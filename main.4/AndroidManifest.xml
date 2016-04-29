@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sneh.myapplication" >
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+        <activity
+            android:name=".Tasks"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".ShowEquipement"
+            android:label="@string/title_activity_show_equipement" >
+        </activity>
+        <activity
+            android:name=".AddEquipment"
+            android:label="@string/title_activity_add_equipment" >
+        </activity>
+        <activity
+            android:name=".Equipment"
+            android:label="@string/title_activity_equipment" >
+        </activity>
+        <activity
+            android:name=".ShowWorker"
+            android:label="@string/title_activity_show_worker" >
+        </activity>
+        <activity
+            android:name=".AddWorker"
+            android:label="@string/title_activity_add_worker" >
+        </activity>
+        <activity
+            android:name=".Worker"
+            android:label="@string/title_activity_worker" >
+        </activity>
+        <activity
+            android:name=".AddFood"
+            android:label="@string/title_activity_add_food" >
+        </activity>
+        <activity
+            android:name=".egg_extra_screen"
+            android:label="@string/title_activity_egg_extra_screen" >
+        </activity>
+        <activity
+            android:name=".ShowFood"
+            android:label="@string/title_activity_show_food" >
+        </activity>
+        <activity
+            android:name=".Food"
+            android:label="@string/title_activity_food" >
+        </activity>
+        <activity
+            android:name=".AddMedical"
+            android:label="@string/title_activity_add_medical" >
+        </activity>
+        <activity
+            android:name=".ShowMedical"
+            android:label="@string/title_activity_show_medical" >
+        </activity>
+        <activity
+            android:name=".Medical"
+            android:label="@string/title_activity_medical" >
+        </activity>
+        <activity
+            android:name=".AddExpense"
+            android:label="@string/title_activity_add_expense" >
+        </activity>
+        <activity
+            android:name=".ShowExpense"
+            android:label="@string/title_activity_show_expense" >
+        </activity>
+        <activity
+            android:name=".Expense"
+            android:label="@string/title_activity_expense" >
+        </activity>
+        <activity
+            android:name=".AddDownPayment"
+            android:label="@string/title_activity_add_down_payment" >
+        </activity>
+        <activity
+            android:name=".ShowDownPayment"
+            android:label="@string/title_activity_show_down_payment" >
+        </activity>
+        <activity
+            android:name=".DownPayment"
+            android:label="@string/title_activity_down_payment" >
+        </activity>
+        <activity
+            android:name=".AddReturnedExpenses"
+            android:label="@string/title_activity_add_returned_expenses" >
+        </activity>
+        <activity
+            android:name=".ShowReturnedExpenses"
+            android:label="@string/title_activity_show_returned_expenses" >
+        </activity>
+        <activity
+            android:name=".ReturnedExpenses"
+            android:label="@string/title_activity_returned_expenses" >
+        </activity>
+        <activity
+            android:name=".AddDeath"
+            android:label="@string/title_activity_add_death" >
+        </activity>
+        <activity
+            android:name=".ShowDeath"
+            android:label="@string/title_activity_show_death" >
+        </activity>
+        <activity
+            android:name=".Death"
+            android:label="@string/title_activity_death" >
+        </activity>
+        <activity
+            android:name=".AddEgg"
+            android:label="@string/title_activity_add_egg" >
+        </activity>
+        <activity
+            android:name=".ShowEgg"
+            android:label="@string/title_activity_show_egg" >
+        </activity>
+        <activity
+            android:name=".Egg"
+            android:label="@string/title_activity_egg" >
+        </activity>
+        <activity
+            android:name=".Login"
+            android:label="@string/title_activity_login" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AddCicle"
+            android:label="@string/title_activity_add_cicle" >
+        </activity>
+        <activity
+            android:name=".ShowCicle"
+            android:label="@string/title_activity_show_cicle" >
+        </activity>
+        <activity
+            android:name=".Setting"
+            android:label="@string/title_activity_setting" >
+        </activity>
+        <activity
+            android:name=".AddBuilding"
+            android:label="@string/title_activity_add_building" >
+        </activity>
+        <activity
+            android:name=".ShowBuilding"
+            android:label="@string/title_activity_show_building" >
+        </activity>
+        <activity
+            android:name=".Building"
+            android:label="@string/title_activity_building" >
+        </activity>
+        <activity
+            android:name=".TitleBuilding"
+            android:label="@string/title_activity_title_building" >
+        </activity>
+        <activity
+            android:name=".Alive"
+            android:label="@string/title_activity_alive" >
+        </activity>
+        <activity
+            android:name=".Animals"
+            android:label="@string/title_activity_animals" >
+        </activity>
+        <activity
+            android:name=".Finianse"
+            android:label="@string/title_activity_finianse" >
+        </activity>
+        <activity
+            android:name=".note"
+            android:label="@string/title_activity_note" >
+        </activity>
+        <activity
+            android:name=".CameraPictureActivity"
+            android:label="@string/title_activity_camera_picture" >
+        </activity>
+        <activity
+            android:name=".Temp"
+            android:label="@string/title_activity_temp" >
+        </activity>
+        <activity
+            android:name=".TodaysTask"
+            android:label="@string/title_activity_todays_task" >
+        </activity>
+        <activity
+            android:name=".ShowAnimal"
+            android:label="@string/title_activity_show_animal" >
+        </activity>
+    </application>
+
+</manifest>

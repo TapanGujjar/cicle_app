@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sneh.myapplication" >
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+
+        >
+
+
+
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".AddConsommation"
+            android:label="@string/title_activity_add_consommation" >
+        </activity>
+        <receiver android:name=".NotificationPublisher"/>
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".FoodConsommation"
+            android:label="@string/title_activity_food_consommation" >
+        </activity>
+
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".ShowConsommation"
+            android:label="@string/title_activity_show_consommation" >
+        </activity>
+
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".Tasks"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".ShowEquipement"
+            android:label="@string/title_activity_show_equipement" >
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".AddEquipment"
+            android:label="@string/title_activity_add_equipment" >
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".Equipment"
+            android:label="@string/title_activity_equipment" >
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".ShowWorker"
+            android:label="@string/title_activity_show_worker" >
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".ViewImage"
+            android:label="Show Media" >
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".MainActivity"
+            android:label="Photos" />
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".AddWorker"
+            android:label="@string/title_activity_add_worker" >
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".Worker"
+            android:label="@string/title_activity_worker" >
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".AddFood"
+            android:label="@string/title_activity_add_food" >
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".egg_extra_screen"
+            android:label="@string/title_activity_egg_extra_screen" >
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".ShowFood"
+            android:label="@string/title_activity_show_food" >
+        </activity>
+
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".AddMedical"
+            android:label="@string/title_activity_add_medical" >
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".ShowMedical"
+            android:label="@string/title_activity_show_medical" >
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".Medical"
+            android:label="@string/title_activity_medical" >
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".AddExpense"
+            android:label="@string/title_activity_add_expense" >
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".ShowExpense"
+            android:label="@string/title_activity_show_expense" >
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".Expense"
+            android:label="@string/title_activity_expense" >
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".AddDownPayment"
+            android:label="@string/title_activity_add_down_payment" >
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".ShowDownPayment"
+            android:label="@string/title_activity_show_down_payment" >
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".DownPayment"
+            android:label="@string/title_activity_down_payment" >
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".AddReturnedExpenses"
+            android:label="@string/title_activity_add_returned_expenses" >
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".ShowReturnedExpenses"
+            android:label="@string/title_activity_show_returned_expenses" >
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".ReturnedExpenses"
+            android:label="@string/title_activity_returned_expenses" >
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".AddDeath"
+            android:label="@string/title_activity_add_death" >
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".ShowDeath"
+            android:label="@string/title_activity_show_death" >
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".Death"
+            android:label="@string/title_activity_death" >
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".AddNormalEgg"
+            android:label="@string/title_activity_add_normal_egg" >
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".ShowNormalEgg"
+            android:label="@string/title_activity_show_normal_egg" >
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".NormalEgg"
+            android:label="@string/title_activity_normal_egg" >
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".Login"
+            android:label="@string/title_activity_login" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".AddCicle"
+            android:label="@string/title_activity_add_cicle" >
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".ShowCicle"
+            android:label="@string/title_activity_show_cicle" >
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".Setting"
+            android:label="@string/title_activity_setting" >
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".AddBuilding"
+            android:label="@string/title_activity_add_building" >
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".ShowBuilding"
+            android:label="@string/title_activity_show_building" >
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".Building"
+            android:label="@string/title_activity_building" >
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".TitleBuilding"
+            android:label="@string/title_activity_title_building" >
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".Alive"
+            android:label="@string/title_activity_alive" >
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".Animals"
+            android:label="@string/title_activity_animals" >
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".Finianse"
+            android:label="@string/title_activity_finianse" >
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".note"
+            android:label="@string/title_activity_note" >
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".Temp"
+            android:label="@string/title_activity_temp" >
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".TodaysTask"
+            android:label="@string/title_activity_todays_task" >
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".ShowAnimal"
+            android:label="@string/title_activity_show_animal" >
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".AddBrokenEgg"
+            android:label="@string/title_activity_add_broken_egg" >
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".ShowBrokenEgg"
+            android:label="@string/title_activity_show_broken_egg" >
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".BrokenEgg"
+            android:label="@string/title_activity_broken_egg" >
+        </activity>
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".Consommation"
+            android:label="@string/title_activity_consommation" >
+        </activity>
+        <!--<activity
+            android:name=".AddConsommation"
+            android:label="@string/title_activity_add_consommation" >
+        </activity>
+        <activity
+            android:name=".ShowConsommation"
+            android:label="@string/title_activity_show_consommation" >
+        </activity>-->
+
+    </application>
+
+</manifest>
